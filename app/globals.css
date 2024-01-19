@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+.techno-logo {
+  background-color: rgba(209, 213, 219, 0.1);
+  transition:ease 0.4s all;
+  transform: translateZ(0);
+  padding: 8px;
+  border-radius: 0.375rem;
+  border: 1px solid rgba(66, 153, 225, 0.4);
+  -webkit-background-composite: 0.5;
+}
+
+.techno-logo:hover {
+  scale: 1.08;
+  box-shadow: 0 0 0 1px rgba(66, 153, 225, 0.15), 0 1px 2px 0 rgba(66, 153, 225, 0.2);
+  transform: scale(1.05);
+  background-color: rgba(66, 153, 225, 0.6);
+  border-color: rgba(66, 153, 225, 0.4);
+  box-shadow: 0 0 0 1px rgba(66, 153, 225, 0.15), 0 1px 2px 0 rgba(66, 153, 225, 0.2), 0 1px 3px 0 rgba(66, 153, 225, 0.3);
+}
+
+
+.activeLinkNav {
+  color: white;
+  background: linear-gradient(to left top, rgba(7, 89, 133, 0.8), rgba(56, 189, 248, 0.902));
+ 
+}
+
+body {
+  background-color: #121214;
+}
