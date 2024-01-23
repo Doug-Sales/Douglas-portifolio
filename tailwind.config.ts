@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss'
-const defaultTheme = require("tailwindcss/defaultTheme");
+import defaultTheme from "tailwindcss/defaultTheme"
+import { rockSalt } from './app/ui/fonts'
 
 const config: Config = {
   content: [
@@ -17,7 +18,7 @@ const config: Config = {
     },
     fontFamily: {
       sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
-      display: ["var(--font-rock)"],
+      "rock": ["var(--font-rock)"],
       "syne": ["var(--font-syne)"]
     },
     keyframes: {
