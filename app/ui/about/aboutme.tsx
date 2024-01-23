@@ -3,6 +3,7 @@ import Image from 'next/image';
 import aboutMe from '@/assets/personalImg/about-me.png'
 import astronautIcon from '@/assets/astronaut.png'
 import { MotionsImports } from '../components/Motion-Imports';
+import { rockSalt } from '../fonts';
 
 
 
@@ -28,7 +29,7 @@ export default function AboutMeSession() {
 
       <section className='flex-col flex xl:w-5/6 w-5/5 mx-auto px-2 text-wrap '>
 
-        <h3 className={`text-4xl overflow-clip flex items-center justify-center font-display xl:gap-6  xl:text-5xl bg-clip-text text-transparent pl-5 dark:text-white   bg-gradient-to-r from-indigo-500 from-20% via-emerald-500 via-50% to-sky-500 to-80% `}>
+        <h3 className={`text-4xl overflow-clip flex items-center justify-center ${rockSalt.variable} font-rock xl:gap-6  xl:text-5xl bg-clip-text text-transparent pl-5 dark:text-white   bg-gradient-to-r from-indigo-500 from-20% via-emerald-500 via-50% to-sky-500 to-80% `}>
           Sobre Mim
           <div className=' w-36 h-3w-36 '>
             <Image src={astronautIcon} alt='Icon astronaut'  />

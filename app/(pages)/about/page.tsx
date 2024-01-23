@@ -16,7 +16,7 @@ export default function About() {
             <div className=" xl:flex rounded-full mt-2 h-1 place-self-center w-72 bg-gradient-to-tr from-sky-400 to-purple-500  hidden "></div>
           </h1>
 
-          <div className=" items-center container gap-3 pl-6 py-6 ">
+          <div className=" items-center  container gap-3 pl-6 py-6 ">
             <AboutMeSession />
 
             <PersonalInfo />

@@ -2,14 +2,14 @@
 
 
 export async function ButtonDownload() {
-  const PDF_FILE_URL = 'curriculo/Curriculo-Douglas-Medeiros.pdf'
+  const PDF_FILE_URL = 'curriculo/Douglas-Medeiros-Curriculo.pdf'
 
   
   const handleDownload = (url: any) => {
 
     const a = document.createElement('a');
     a.href = PDF_FILE_URL;
-    a.setAttribute('download', 'Curriculo-Douglas-Medeiros.pdf')
+    a.setAttribute('download', 'Douglas-Medeiros-Curriculo.pdf')
     document.body.appendChild(a);
     a.click();
     a.remove();

@@ -16,7 +16,7 @@ export default function ContactForm() {
         </p>
       </div>
 
-      <form id="myForm" className=" p-4 py-10 rounded-b-xl backdrop-blur-2xl  " action="https://formsubmit.co/douglasmsales28@outlook.com" method="POST">
+      <form id="myForm" className=" p-4 py-10 rounded-b-xl backdrop-blur-2xl  " action="https://formsubmit.co/fullstack@douglasmedeiros.tech" method="POST">
         
         <div className="relative z-0 lg:w-full mb-8 group">
           <input type="text" name="name" className="block autofill:bg-transparent py-2.5 px-0 w-full text-sm text-[#CAF0F8] bg-transparent border-0 border-b-[2px] border-gray-300 appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#FF6464] peer" placeholder=" " required />
@@ -44,7 +44,7 @@ export default function ContactForm() {
           <input type="hidden" name="_subject" value={'Novo Contato!'} />
           <input type="text" name="_honey" className={"hidden"} />
           <input type="hidden" name="_captcha" value={'false'} />
-
+          <input type="hidden" name="_next" value="https//douglasmedeiros.tech/contact/thanks"/>
         </div>
 
       </form>

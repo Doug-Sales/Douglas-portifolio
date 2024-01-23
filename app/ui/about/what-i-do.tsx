@@ -1,6 +1,5 @@
-import { Syne } from 'next/font/google'
+import { syne } from "../fonts";
 
-const syne = Syne({ weight: ['500'], subsets: ['latin'] })
 
 export default function WhatIDoSection() {
   return (
@@ -8,7 +7,7 @@ export default function WhatIDoSection() {
 
       <article className="">
 
-        <h3 className={`${syne.className} text-[2.1875rem] mt-4 dark:text-white text-gray-200 font-medium p-5`}>O que faço!</h3>
+        <h3 className={`${syne.variable} text-[2.1875rem] mt-4 dark:text-white text-gray-200 font-medium p-5`}>O que faço!</h3>
 
         <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 *:bg-[#202024] ">
 

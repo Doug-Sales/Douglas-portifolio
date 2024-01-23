@@ -52,7 +52,7 @@ export default function CardContact() {
         <div className="flex-col flex-1 text-end px-2 ">
           <h6 className="font-medium dark:text-white">
             <p className="hover:text-[#FA5252] duration-300 transition">
-              douglasmsales28<span className='text-xs'>@outlook.com</span>
+              fullstack@douglasmedeiros.tech
             </p>
           </h6>
         </div>

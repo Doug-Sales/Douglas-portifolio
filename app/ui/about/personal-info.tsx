@@ -59,7 +59,7 @@ export default function PesonalInfo() {
             <p className="text-xs text-gray-lite dark:text-color-910">Email</p>
             <h6 className="font-medium dark:text-white">
               <a className="hover:text-[#FA5252] duration-300 break-words transition" href="#">
-                douglasmsales28<br />@outlook.com
+                fullstack@<br />douglasmedeiros.tech
               </a>
             </h6>
           </div>
