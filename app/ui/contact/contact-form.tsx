@@ -44,7 +44,7 @@ export default function ContactForm() {
           <input type="hidden" name="_subject" value={'Novo Contato!'} />
           <input type="text" name="_honey" className={"hidden"} />
           <input type="hidden" name="_captcha" value={'false'} />
-          <input type="hidden" name="_next" value="https//douglasmedeiros.tech/contact/thanks"/>
+          <input type="hidden" name="_next" value="https://douglasmedeiros.tech/contact/thanks"/>
         </div>
 
       </form>
